@@ -8,7 +8,8 @@ namespace OOP_Basic.Net5
 {
     internal class Human
     {
-
+        //member variable
+        string firstName;
 
 
     }
