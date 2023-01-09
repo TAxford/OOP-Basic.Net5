@@ -11,11 +11,12 @@ namespace OOP_Basic.Net5
     {
         //member variable
         public string firstName;
+        public string lastName;
 
         // member
         public void IntroduceMyself()
         {
-            Console.WriteLine("Hi, I'm {0}" ,firstName);
+            Console.WriteLine("Hi, I'm {0} {1}" ,firstName,lastName);
         }
 
 

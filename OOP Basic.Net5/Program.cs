@@ -6,14 +6,15 @@ namespace OOP_Basic.Net5
     {
         static void Main(string[] args)
         {
-            //create an onject of my class
-            //an instance of Human
-            Human tim = new Human();
+            Human sissy = new Human();
+            sissy.firstName = "Sissy";
+            sissy.lastName = "Wagner";
+            sissy.IntroduceMyself();
 
-            //access public variable from outside, and even change it
-            tim.firstName = "Tim";
-            //call methods of the class
-            tim.IntroduceMyself();
+            Human franzl = new Human();
+            franzl.firstName = "Franzl";
+            franzl.lastName = "Muller";
+            franzl.IntroduceMyself();
 
 
             Console.ReadKey();
