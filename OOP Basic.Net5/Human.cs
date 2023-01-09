@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace OOP_Basic.Net5
 {
+    //this class is a blueprint for a datatype
     internal class Human
     {
         //member variable
-        string firstName;
+        public string firstName;
+
+        // member
+        public void IntroduceMyself()
+        {
+            Console.WriteLine("Hi, I'm {0}" ,firstName);
+        }
 
 
     }
